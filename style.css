@@ -1,0 +1,15 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    box-sizing:content-box;
+    background-color: rgb(176, 207, 236);
+}
+
+.title {
+    text-align: center;
+    border-bottom: solid 3px;
+    border-color: rgb(0, 0, 0);
+    height:auto;
+    padding: 10px;
+    width: 600px;
+    margin: 40px auto;
+}
