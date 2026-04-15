@@ -1,15 +1,52 @@
 body {
     font-family: Verdana, Arial, sans-serif;
-    box-sizing:content-box;
+    box-sizing:border-box;
     background-color: rgb(176, 207, 236);
 }
 
-.title {
+.title, .homepage-sub, .centered{
     text-align: center;
+}
+
+.homepage-sub {
+    font-weight: 100;
+}
+
+.inline-border {
+    border-top: 3px solid;
+    width: 200px;
+    margin: 35px auto;
+}
+
+.title {
     border-bottom: solid 3px;
     border-color: rgb(0, 0, 0);
     height:auto;
     padding: 10px;
     width: 600px;
     margin: 40px auto;
+    font-size: 90px;
+}
+
+.recipe-list {
+    display:flex;
+    margin: 30px auto;
+}
+
+.recipe-button {
+    padding: 10px;
+    margin: auto;
+    font-size: 32px;
+    background-color: rgb(181, 150, 255)
+}
+
+.recipe-button:hover {
+    padding: 15px;
+    background-color: rgb(166, 129, 255)
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
 }
