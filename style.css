@@ -33,6 +33,17 @@ body {
     margin: 30px auto;
 }
 
+#home-button{
+    text-align:right;
+    display:block;
+    margin-bottom:25px;
+    margin-right:25px;
+}
+
+#home-button .recipe-button {
+    font-size: 20px;
+}
+
 .recipe-button {
     padding: 10px;
     margin: auto;
@@ -44,7 +55,29 @@ body {
     padding: 15px;
     background-color: rgb(166, 129, 255)
 }
+.recipe-heading {
+    display:inline;
+    margin-left: -17px;
+}
 
+.recipe-section {
+    border-left: 2px solid black;
+    padding-left: 30px;
+    margin: 25px 300px auto 75px;
+}
+
+.reference {
+    /* background-color: rgb(233, 233, 233) */
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.image-footer {
+    font-size:11px;
+}
+.recipe-button a {
+    padding: 20px;
+}
 a {
     color: rgb(0, 0, 0);
     text-decoration: none;
